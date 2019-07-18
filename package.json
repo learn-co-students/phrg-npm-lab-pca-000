@@ -1,0 +1,26 @@
+{
+  "name": "new_package",
+  "version": "1.0.0",
+  "description": "Whoa, awesome desc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KFad11/phrg-npm-lab-pca-000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KFad11/phrg-npm-lab-pca-000/issues"
+  },
+  "homepage": "https://github.com/KFad11/phrg-npm-lab-pca-000#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
